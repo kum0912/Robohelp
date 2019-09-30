@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <variable>
+      <name>Dynamic Filtering</name>
+      <path>../variablesets/Dynamic Filtering.var</path>
+    </variable>
+    <toc>
+      <name>EmployeeCare3</name>
+      <path>../../toc/EmployeeCare3.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>EmployeeCare3</name>
+      <path>../../glossary/EmployeeCare3.glo</path>
+    </glossary>
+    <brs type="array">
+      <brsitem>
+        <name>HR_Policies_and_Procedures</name>
+        <path>../browsesequence/HR_Policies_and_Procedures.brs</path>
+      </brsitem>
+    </brs>
+    <mapFiles type="array">
+      <mapFilesitem>
+        <name>BSSCDefault</name>
+        <path>../mapfiles/BSSCDefault.ali</path>
+      </mapFilesitem>
+    </mapFiles>
+  </content>
+  <title>Employee Care 3</title>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/kum/Documents/My RoboHelp Projects/outputs/EmployeeCare3/ResponsiveHTML5</outputPath>
+  <name>Responsive HTML5</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>Introduction</name>
+    <path>../../contents/Employee_Care/Introduction.htm</path>
+  </defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">true</context>
+    <contextLimit>60</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <searchsubstrings type="boolean">true</searchsubstrings>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <filter>
+    <name>Responsive HTML5</name>
+    <path>../filters/Responsive HTML5.filter</path>
+  </filter>
+  <sitemap>
+    <use type="boolean">true</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency>Monthly</changeFrequency>
+  </sitemap>
+  <skin>
+    <name>html5</name>
+    <path>../skins/Azure_Blue/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <favicon>
+    <name>JS-Whirl-Logo-32</name>
+    <path>../../contents/assets/images/JS-Whirl-Logo-32.png</path>
+  </favicon>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+</preset>
